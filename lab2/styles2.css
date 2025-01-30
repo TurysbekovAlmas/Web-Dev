@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+}
+
+.login-box {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    width: 370px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.divider {
+    margin: 15px 0;
+    color: #8e8e8e;
+    font-size: 14px;
+}
+
+.facebook-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #385185;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.facebook-login img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.forgot-password {
+    color: #00376b;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.register-box {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 10px;
+}
+
+.register-box a {
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.download-box p {
+    font-size: 13px;
+}
+
+.app-buttons img {
+    
+    height: auto; 
+}
+
+.app-buttons {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+
+img[src="app-store.png"]{
+    margin-top: 10px;
+    width: 130px;
+    height: 50px;
+}
+img[src="gp-1.png"] {
+    width: 150px;  
+    height: 87px;  
+}
+
