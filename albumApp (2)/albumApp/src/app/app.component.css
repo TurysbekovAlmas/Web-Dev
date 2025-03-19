@@ -1,0 +1,43 @@
+/* Общий стиль страницы */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+/* Заголовок */
+h1 {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  margin: 0;
+  font-size: 28px;
+}
+
+/* Навигация */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #0056b3;
+  padding: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  transition: 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+/* Стиль активной ссылки */
+nav a:hover,
+nav a.active-link {
+  background-color: #003d82;
+  text-decoration: none;
+  font-weight: bold;
+}

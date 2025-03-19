@@ -1,0 +1,6 @@
+<div class="album-container">
+  <input [(ngModel)]="album.title" class="album-input" placeholder="Enter album title">
+  <p class="album-title">Album title: {{ album.title }}</p>
+
+  <a [routerLink]="['/albums', album.id, 'photos']" class="album-link">View Photos</a>
+</div>

@@ -1,0 +1,11 @@
+<div class="photo-grid" *ngIf="photos?.length; else noPhotos">
+  <div *ngFor="let photo of photos" class="photo-item">
+    <img [src]="photo.url" [alt]="photo.title" class="photo-img" (error)="onImageError(photo)">
+    <p class="photo-title">{{ photo.title }}</p>
+  </div>
+</div>
+
+
+<ng-template #noPhotos>
+  <p>Нет фотографий для отображения.</p>
+</ng-template>
